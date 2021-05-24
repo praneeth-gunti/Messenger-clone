@@ -1,0 +1,42 @@
+.message{
+  padding: 10px;
+  margin: 5px;
+  width: fit-content;
+}
+
+.message_user{
+  margin-left: auto;
+  color: white;
+  text-align: left !important;
+}
+
+.message_userCard{
+  background-color: #0b81ff !important;
+  border-radius: 50px !important;
+  color: white !important;
+}
+
+.message_guestCard{
+  background-color: #e9e9eb !important;
+  border-radius: 50px !important;
+}
+
+.message_typography{
+  font-size: 1rem !important;
+}
+
+.message_username{
+  padding: 0;
+  margin: 0;
+  margin-left: 15px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  color: grey;
+}
+.message_message{
+  padding: 0px;
+  margin: 0;
+  font-weight: bold;
+  text-align: left;
+}

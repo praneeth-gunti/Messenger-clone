@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+  display: grid;
+  place-items:center;
+  background-color: black;
+  color: white
+}
+
+.app_form{
+  padding:  20px;
+  bottom: 0px;
+  background-color: #c2c2ff;
+  border-radius: 50px;
+  z-index: 1;
+  width: 90%;
+  margin: 0 auto 10px;
+}
+
+.app_formControl{
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.app_input{
+  flex: 1;
+}
+
+.app_iconButton{
+  flex:0;
+}
+
+.app_welcome {
+  width: 80%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: black !important;
+  background-color: #c2c2ff;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  max-width: 600px;
+}
+
+.app_messages{
+  background-color: white;
+  position: relative;
+  height: 550px;
+  width: 80%;
+  max-width: 600px;
+}
+
+
+/*Hide scrollbar in Chrome Safari and Opera */
+.css-y1c0xs::-webkit-scrollbar{
+  display: none;
+}
+
+.app_send{
+  /* text-align: center; */
+  width: 80%;
+  max-width: 600px;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+@media screen and (max-width: 550px) {
+  .app_send{
+    width: 97%;
+  }
+  .app_welcome{
+    width: 97%;
+  }
+  .app_messages{
+    width: 97%;
+  }
+}
+
+
+
+.app_creator{
+  color: grey;
+  text-align: center;
+  font-size: 0.75em;
+  margin-top: 15px;
+}
+
+
+.app_creator p{
+  margin: 0
+}
+
+.message_cardContent{
+  padding-bottom: 16px !important;
+}
